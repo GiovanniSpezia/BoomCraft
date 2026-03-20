@@ -79,6 +79,8 @@ Spigot / Paper
 
 Java 17 / 21 (recommended: 21)
 
+---
+
 ## 🚀 Installation
 
 Download the latest release
@@ -86,3 +88,28 @@ Download the latest release
 Put BoomCraft.jar into /plugins
 
 Start or restart the server
+
+---
+
+🛠️ Build
+Maven
+```
+mvn clean package
+```
+
+---
+
+💥 Example Usage
+```
+/boom normal
+/boom fire 10
+/boom shockwave 100 64 200
+/boom normal ~ ~ ~
+/boom give normal
+```
+
+---
+
+🧑‍💻 Author
+
+giospezia.it
