@@ -1,0 +1,20 @@
+name: BoomCraft
+version: '1.0'
+main: it.giovannispezia.boomCraft.BoomCraft
+api-version: '1.21'
+authors: [ GioSpezia ]
+website: giospezia.it
+
+commands:
+  boom:
+    description: Explosion command
+    usage: /boom
+
+permissions:
+  boom.use:
+    description: Usa le esplosioni
+    default: true
+
+  boom.admin:
+    description: Comandi admin (give TNT)
+    default: op

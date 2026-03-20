@@ -1,0 +1,19 @@
+explosions:
+  NORMAL:
+    power: 4
+    fire: false
+    breakBlocks: true
+
+  FIRE:
+    power: 4
+    fire: true
+    breakBlocks: true
+
+  SHOCKWAVE:
+    power: 4
+    fire: false
+    breakBlocks: false
+    knockback: 2
+
+settings:
+  default-power: 4
